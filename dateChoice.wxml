@@ -1,0 +1,12 @@
+<template name="date-choice">
+<view class='order-time' catchtap="changeType">
+  <text class='goInHotel'>入住</text>
+  <text class='date-wrappper'>{{choiceDate[0].month}}月{{choiceDate[0].day}}日</text>
+  <text class='goInHotel2' wx:if="{{choiceDate[0].year+choiceDate[0].month+choiceDate[0].day==today}}">今天</text>
+  <text class='left-hotel'>离店</text>
+  <text class='date-wrappper'>{{choiceDate[choiceDate.length-1].month}}月{{choiceDate[choiceDate.length-1].day}}日</text>
+  <text class='goInHotel2' wx:if="{{choiceDate[choiceDate.length-1].year+choiceDate[choiceDate.length-1].month+choiceDate[choiceDate.length-1].day==tomorrow}}">明天</text>
+  <text class='icon-gengduo1 genduo'></text>
+  <text class='sumCount'>{{dayCount2}}</text>
+</view>
+</template>

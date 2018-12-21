@@ -1,0 +1,82 @@
+
+.order-time {
+  position: relative;
+  width: 100%;
+  padding: 25rpx 15rpx;
+}
+
+.order-time::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #eee;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+
+
+
+.goInHotel {
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  color: gray;
+}
+
+.goInHotel2 {
+  font-size: 26rpx;
+  color: gray;
+}
+
+.date-wrappper {
+  position: relative;
+  padding: 0 10rpx;
+  font-size: 32rpx;
+  color: black;
+}
+
+
+.left-hotel {
+  margin-left: 40rpx;
+  font-size: 26rpx;
+  color: gray;
+}
+
+
+
+.icon-gengduo1:before {
+  content: "\e620";
+  font-family: "iconfont" !important;
+  font-size: 26rpx;
+  color: #f3f5f7;
+  font-style: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.order-time .icon-gengduo1:before {
+  content: "\e620";
+  font-family: "iconfont" !important;
+  font-size: 26rpx;
+  color: gray;
+  font-style: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.order-time .sumCount {
+  color: #6495ed;
+  float: right;
+  margin-right: 15rpx;
+  font-size: 26rpx;
+  padding-top: 10rpx;
+}
+
+.genduo {
+  float: right;
+  margin-right: 30rpx;
+  color: gray;
+  position: relative;
+  margin-top: -2rpx;
+}
